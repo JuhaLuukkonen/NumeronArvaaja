@@ -9,7 +9,7 @@ namespace NumberGuesser
         // Entry Point Method
         static void Main(string[] args)
         {
-            GetAppInfo(); // Ajaa GetAppInfo toiminnon saadakseen info
+            GetAppInfo(); // Ajaa GetAppInfo toiminnon saadakseen infon
 
             GreetUser(); // Kysyy käyttäjältä nimen ja tervehtii
 
