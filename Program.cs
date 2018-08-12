@@ -41,7 +41,7 @@ namespace NumberGuesser
                     if (!int.TryParse(input, out guess))
                     {
                         // Print error message
-                        PrintColorMessage(ConsoleColor.Red, "Antaisitko oikean numeron");
+                        PrintColorMessage(ConsoleColor.Red, "Antaisitko oikean numeron?");
 
                         // Keep going
                         continue;
